@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass-Site</title>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img id="a" src="/images/ismail.jpeg" alt="avatar" />
+            <h3>M. Ismail</h3>
+            <p>4079-FBAS/BSCS4/F18-A</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="/images/twitch.png" alt="twitch" />
+              <h4>Interest</h4>
+            </div>
+            <div class="link">
+              <img src="/images/steam.png" alt="steam" />
+              <h4>Coding</h4>
+            </div>
+            <div class="link">
+              <img src="/images/upcoming.png" alt="upcoming" />
+              <h4>Games</h4>
+            </div>
+            <div class="link">
+              <img src="/images/library.png" alt="library" />
+              <h4>Books</h4>
+            </div>
+          </div>
+          <div class="pro">
+            <h4>Contact Me For More info.</h4>
+            <img src="/images/controller.png" alt="pro" />
+          </div>
+        </div>
+        <div class="games">
+          <div class="status">
+            <h2>My Portfolio</h2>
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="/images/gown.jpg" alt="" class="degree" />
+              <div class="card-info">
+                <h4>Graduation Degree</h4>
+                <p>BSCS</p>
+                <div class="progress"></div>
+              </div>
+              <h3 class="percentage">90%</h3>
+            </div>
+            <div class="card">
+              <img src="/images/graduation.jpg" alt="" class="degree" />
+              <div class="card-info">
+                <h4>Intermidiate</h4>
+                <p>FCS</p>
+                <div class="progress1"></div>
+              </div>
+              <h3 class="percentage">100%</h3>
+            </div>
+            <div class="card">
+              <img src="/images/graduation.jpg" alt="" class="degree" />
+              <div class="card-info">
+                <h4>Matric</h4>
+                <p>Sciences</p>
+                <div class="progress1"></div>
+              </div>
+              <h3 class="percentage">100%</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="secondpage">
+      <h2 class="proposal">License Plate Detection</h2>
+      <div>
+        <h4 class="headings4">Introduction:</h4>
+        <pre class="paragrapgh1">
+          Object Detection is one of the most common applications in the field of computer vision. It is widely used in different industries such as medical imaging
+          automobiles, police, and many others.
+            We are going to create an object detection model, that would be able to
+            ● Detect the License Plate in a car 
+            ● Use its OCR to correctly classify the 
+            ○ Character part of the License Plate
+            ○ Digits Part of the License Plate
+        </pre>
+        <h4 class="headings4">Objectives</h4>
+        <pre class="paragrapgh1">
+          To design a real-time web application, that will take in a car image(with license plate visible) and will
+            ● Detect the License Plate (Draw a bounding box around the license plate)
+            ● Output the License Number
+          For multiple images, it will take the path of the folder (that contains the images of the cars) and will perform prediction on all the images in a batch
+          for faster prediction, and store the results in either a database or a text file accordingly</pre
+        >
+        <h4 class="headings4">Problem Description</h4>
+        <pre class="paragrapgh1">
+        <b>What is Automatic Detection:</b>
+          Automatic Detection of Number plates is going to be software that will use
+        stateof-the-art deep learning algorithms and classical computer vision techniques to detect the number plate(draw a bounding box around it) and classify the 
+        plate number.
+          It is going to have a web interface, which can be used by the companies/industries
+          for fast predictions and will be connected to a database.
+        <b>Why Automatic Detection:</b>
+          Automatic Detection and classification of Cars Number Plate are going to be
+          helpful in a number of cases especially for the safety and security of the city. This software can be used by POLICE departments to quickly judge
+          if the car is stolen, or there are some anomalies with the drivers which need to be checked.</pre>
+        <h4 class="headings4">Project Scope</h4>
+        <pre class="paragrapgh1">
+      ● Users will be able to use our web interface to select a single image or folder of images containing images of car
+      ● The user will be able to perform the prediction live in the browser.
+      ● The results of the license plate detection will then be stored in a database or text file as per user requirements.
+      ● Users will be able to see the detected number plate via the bounding box for further satisfaction
+        We are going to use a development-based approach where will use the currently implemented algorithms to implement our idea.</pre
+        >
+
+        <h4 class="headings4">Brief Feasibility Study</h4>
+        <pre class="paragrapgh1">
+        <b>i. Risks Involved:</b> Some of the risks include incorrect detection of the number plate and incorrect predictions by OCR which will be solved accordingly
+        when in the development phase via A/B testing.
+        <b>ii. Resource Requirement:</b> We would need some high-end GPUs with NVIDIA CUDA drivers and at least 12GB of RAM for faster model training and predictions.</pre>
+        <h4 class="headings4">Solution Application Areas</h4>
+        <pre class="paragrapgh1">
+        Our application will mainly target the Safety and Security Department of a city, which can use our application
+        for detecting the number plates, and any crimes associated with them.</pre
+        >
+      </div>
+    </div>
+  </body>
+</html>
